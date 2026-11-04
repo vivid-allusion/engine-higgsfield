@@ -1,0 +1,10 @@
+platform: higgsfield
+media_type: image
+endpoint: higgsfield/z-image-turbo
+description: Z-Image Turbo — Generate API
+parameters:
+  resolution: "1k"
+  aspect_ratio: "1:1"
+  prompt_extend: false
+prompt_prefix: ""
+prompt_suffix: ""

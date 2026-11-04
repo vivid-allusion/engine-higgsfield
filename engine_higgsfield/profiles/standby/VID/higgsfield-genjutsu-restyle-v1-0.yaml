@@ -1,0 +1,9 @@
+platform: higgsfield
+media_type: video
+endpoint: higgsfield/higgsfield-genjutsu-restyle-v1-0
+description: Genjutsu — Restyle API
+parameters:
+  resolution: "720p"
+prompt_prefix: ""
+prompt_suffix: ""
+image_url_param: video_url

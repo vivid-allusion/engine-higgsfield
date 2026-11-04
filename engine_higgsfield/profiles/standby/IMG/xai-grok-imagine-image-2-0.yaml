@@ -1,0 +1,10 @@
+platform: higgsfield
+media_type: image
+endpoint: higgsfield/xai-grok-imagine-image-2-0
+description: Grok Image 2.0 — Generate and edit API
+parameters:
+  quality: "medium"
+  resolution: "1k"
+  aspect_ratio: "auto"
+prompt_prefix: ""
+prompt_suffix: ""

@@ -1,0 +1,8 @@
+platform: higgsfield
+media_type: video
+endpoint: higgsfield/kling-video-omni-video-edit
+description: Kling Omni — Video edit API
+parameters:
+  mode: "pro"
+prompt_prefix: ""
+prompt_suffix: ""

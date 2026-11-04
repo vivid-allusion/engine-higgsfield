@@ -1,0 +1,14 @@
+platform: higgsfield
+media_type: video
+endpoint: higgsfield/kling-video-omni-first-last-frame
+description: Kling Omni — First last frame API
+parameters:
+  mode: "pro"
+  duration: "5"
+  aspect_ratio: "16:9"
+prompt_prefix: ""
+prompt_suffix: ""
+image_url_param: last_frame_url
+slots:
+  - first_frame_url
+duration_param_name: duration

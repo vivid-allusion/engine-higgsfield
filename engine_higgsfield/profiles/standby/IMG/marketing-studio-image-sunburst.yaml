@@ -1,0 +1,12 @@
+platform: higgsfield
+media_type: image
+endpoint: higgsfield/marketing-studio-image-sunburst
+description: Marketing Studio Image — 2.5 Sunburst API
+parameters:
+  quality: "high"
+  moderation: "auto"
+  resolution: "2k"
+  aspect_ratio: "auto"
+  enhance_prompt: false
+prompt_prefix: ""
+prompt_suffix: ""

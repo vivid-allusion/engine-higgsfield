@@ -1,0 +1,17 @@
+platform: higgsfield
+media_type: video
+endpoint: higgsfield/kling-video-o3-image-reference
+description: Kling O3 — Image reference API
+parameters:
+  mode: "std"
+  sound: "off"
+  duration: 5
+  shot_type: "customize"
+  multi_shots: false
+  aspect_ratio: "16:9"
+prompt_prefix: ""
+prompt_suffix: ""
+image_url_param: last_frame_url
+slots:
+  - first_frame_url
+duration_param_name: duration

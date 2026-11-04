@@ -1,0 +1,10 @@
+platform: higgsfield
+media_type: video
+endpoint: higgsfield/minimax-hailuo-2-3-standard-text-to-video
+description: Hailuo 2.3 — Standard text to video API
+parameters:
+  duration: "6"
+  prompt_optimizer: true
+prompt_prefix: ""
+prompt_suffix: ""
+duration_param_name: duration

@@ -1,0 +1,9 @@
+platform: higgsfield
+media_type: video
+endpoint: higgsfield/higgsfield-genjutsu-motion-transfer-v1-0
+description: Genjutsu — Motion transfer API
+parameters:
+  resolution: "720p"
+prompt_prefix: ""
+prompt_suffix: ""
+image_url_param: video_url

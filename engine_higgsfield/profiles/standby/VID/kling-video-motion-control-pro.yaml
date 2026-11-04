@@ -1,0 +1,12 @@
+platform: higgsfield
+media_type: video
+endpoint: higgsfield/kling-video-motion-control-pro
+description: Kling 2.6 Motion Control — Pro API
+parameters:
+  keep_original_sound: "yes"
+  character_orientation: "video"
+prompt_prefix: ""
+prompt_suffix: ""
+image_url_param: image_url
+slots:
+  - video_url

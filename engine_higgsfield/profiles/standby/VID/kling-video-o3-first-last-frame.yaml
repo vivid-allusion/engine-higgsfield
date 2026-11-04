@@ -1,0 +1,16 @@
+platform: higgsfield
+media_type: video
+endpoint: higgsfield/kling-video-o3-first-last-frame
+description: Kling O3 — First last frame API
+parameters:
+  mode: "pro"
+  sound: "off"
+  duration: 5
+  multi_shots: false
+  aspect_ratio: "16:9"
+prompt_prefix: ""
+prompt_suffix: ""
+image_url_param: last_frame_url
+slots:
+  - first_frame_url
+duration_param_name: duration

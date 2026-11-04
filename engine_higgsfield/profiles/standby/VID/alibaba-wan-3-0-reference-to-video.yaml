@@ -1,0 +1,13 @@
+platform: higgsfield
+media_type: video
+endpoint: higgsfield/alibaba-wan-3-0-reference-to-video
+description: Wan 3.0 — Reference to video API
+parameters:
+  duration: 5
+  resolution: "1080p"
+  aspect_ratio: "adaptive"
+  generate_audio: true
+  enable_thinking: false
+prompt_prefix: ""
+prompt_suffix: ""
+duration_param_name: duration

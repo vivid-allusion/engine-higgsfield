@@ -1,0 +1,8 @@
+platform: higgsfield
+media_type: video
+endpoint: higgsfield/kling-video-o3-video-edit
+description: Kling O3 — Video edit API
+parameters:
+  mode: "pro"
+prompt_prefix: ""
+prompt_suffix: ""

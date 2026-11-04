@@ -1,0 +1,14 @@
+platform: higgsfield
+media_type: video
+endpoint: higgsfield/pixverse-v6-image-to-video
+description: PixVerse V6 — Image to video API
+parameters:
+  duration: 5.0
+  resolution: "720p"
+  generate_audio: true
+prompt_prefix: ""
+prompt_suffix: ""
+image_url_param: image_url
+slots:
+  - end_image_url
+duration_param_name: duration

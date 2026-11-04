@@ -1,0 +1,11 @@
+platform: higgsfield
+media_type: video
+endpoint: higgsfield/kling-video-omni-image-reference
+description: Kling Omni — Image reference API
+parameters:
+  mode: "pro"
+  duration: 5
+  aspect_ratio: "16:9"
+prompt_prefix: ""
+prompt_suffix: ""
+duration_param_name: duration

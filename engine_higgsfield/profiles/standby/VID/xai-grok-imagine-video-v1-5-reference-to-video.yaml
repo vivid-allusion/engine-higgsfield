@@ -1,0 +1,14 @@
+platform: higgsfield
+media_type: video
+endpoint: higgsfield/xai-grok-imagine-video-v1-5-reference-to-video
+description: Grok Imagine Video 1.5 — Reference to video API
+parameters:
+  duration: 5
+  resolution: "480p"
+  aspect_ratio: "auto"
+prompt_prefix: ""
+prompt_suffix: ""
+image_url_param: audio_url
+slots:
+  - image_url
+duration_param_name: duration

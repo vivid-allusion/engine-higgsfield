@@ -1,0 +1,10 @@
+platform: higgsfield
+media_type: image
+endpoint: higgsfield/ideogram-v4-0
+description: Ideogram 4.0 — Generate API
+parameters:
+  aspect_ratio: "1:1"
+  rendering_speed: "DEFAULT"
+prompt_prefix: ""
+prompt_suffix: ""
+image_url_param: image_url

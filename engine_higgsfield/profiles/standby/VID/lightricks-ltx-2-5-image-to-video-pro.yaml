@@ -1,0 +1,17 @@
+platform: higgsfield
+media_type: video
+endpoint: higgsfield/lightricks-ltx-2-5-image-to-video-pro
+description: LTX-2.5 — Image to video pro API
+parameters:
+  fps: "25"
+  duration: "6"
+  resolution: "720p"
+  aspect_ratio: "16:9"
+  generate_audio: true
+  camera_movement: "dolly_in"
+prompt_prefix: ""
+prompt_suffix: ""
+image_url_param: image_url
+slots:
+  - end_image_url
+duration_param_name: duration

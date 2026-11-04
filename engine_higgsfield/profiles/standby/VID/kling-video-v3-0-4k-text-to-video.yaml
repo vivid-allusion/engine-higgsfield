@@ -1,0 +1,13 @@
+platform: higgsfield
+media_type: video
+endpoint: higgsfield/kling-video-v3-0-4k-text-to-video
+description: Kling 3.0 — 4K · Text to video API
+parameters:
+  sound: "on"
+  duration: 5
+  cfg_scale: 0.5
+  multi_shots: false
+  aspect_ratio: "16:9"
+prompt_prefix: ""
+prompt_suffix: ""
+duration_param_name: duration

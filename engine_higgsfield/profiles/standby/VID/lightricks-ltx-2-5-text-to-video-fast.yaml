@@ -1,0 +1,14 @@
+platform: higgsfield
+media_type: video
+endpoint: higgsfield/lightricks-ltx-2-5-text-to-video-fast
+description: LTX-2.5 — Text to video fast API
+parameters:
+  fps: "25"
+  duration: "6"
+  resolution: "720p"
+  aspect_ratio: "16:9"
+  generate_audio: true
+  camera_movement: "dolly_in"
+prompt_prefix: ""
+prompt_suffix: ""
+duration_param_name: duration

@@ -1,0 +1,10 @@
+platform: higgsfield
+media_type: video
+endpoint: higgsfield/alibaba-happy-horse-reference-to-video
+description: Happy Horse 1.0 — Reference to video API
+parameters:
+  duration: 5
+  resolution: "720p"
+prompt_prefix: ""
+prompt_suffix: ""
+duration_param_name: duration

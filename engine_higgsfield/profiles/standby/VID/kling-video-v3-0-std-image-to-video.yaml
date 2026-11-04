@@ -1,0 +1,15 @@
+platform: higgsfield
+media_type: video
+endpoint: higgsfield/kling-video-v3-0-std-image-to-video
+description: Kling 3.0 — Standard · Image to video API
+parameters:
+  sound: "on"
+  duration: 5
+  cfg_scale: 0.5
+  multi_shots: false
+prompt_prefix: ""
+prompt_suffix: ""
+image_url_param: image_url
+slots:
+  - last_image_url
+duration_param_name: duration

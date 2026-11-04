@@ -1,0 +1,13 @@
+platform: higgsfield
+media_type: video
+endpoint: higgsfield/kling-video-v2-6-pro-image-to-video
+description: Kling 2.6 — Pro image to video API
+parameters:
+  sound: "on"
+  duration: "5"
+  cfg_scale: 0.5
+  aspect_ratio: "16:9"
+prompt_prefix: ""
+prompt_suffix: ""
+image_url_param: image_url
+duration_param_name: duration

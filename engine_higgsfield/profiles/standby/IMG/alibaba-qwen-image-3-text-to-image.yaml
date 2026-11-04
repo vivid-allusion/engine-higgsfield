@@ -1,0 +1,12 @@
+platform: higgsfield
+media_type: image
+endpoint: higgsfield/alibaba-qwen-image-3-text-to-image
+description: Qwen Image 3 — Text to image API
+parameters:
+  resolution: "1k"
+  aspect_ratio: "1:1"
+  prompt_extend: true
+  enable_thinking: true
+  prompt_extend_mode: "direct"
+prompt_prefix: ""
+prompt_suffix: ""

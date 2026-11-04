@@ -1,0 +1,9 @@
+platform: higgsfield
+media_type: image
+endpoint: higgsfield/higgsfield-ads-studio-v1-0
+description: Ads Studio — Generate ads API
+parameters:
+  batch_size: 1
+  aspect_ratio: "1:1"
+prompt_prefix: ""
+prompt_suffix: ""

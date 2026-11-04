@@ -1,0 +1,10 @@
+platform: higgsfield
+media_type: video
+endpoint: higgsfield/kling-video-v2-5-turbo-pro-text-to-video
+description: Kling 2.5 Turbo — Pro text to video API
+parameters:
+  duration: "5"
+  cfg_scale: 0.5
+prompt_prefix: ""
+prompt_suffix: ""
+duration_param_name: duration

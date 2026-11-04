@@ -1,0 +1,12 @@
+platform: higgsfield
+media_type: video
+endpoint: higgsfield/bytedance-seedance-2-0-text-to-video
+description: Seedance 2.0 — Text to video API
+parameters:
+  duration: 5
+  resolution: "720p"
+  aspect_ratio: "16:9"
+  generate_audio: true
+prompt_prefix: ""
+prompt_suffix: ""
+duration_param_name: duration

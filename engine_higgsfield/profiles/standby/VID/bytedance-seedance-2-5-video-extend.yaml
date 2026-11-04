@@ -1,0 +1,13 @@
+platform: higgsfield
+media_type: video
+endpoint: higgsfield/bytedance-seedance-2-5-video-extend
+description: Seedance 2.5 — Video extend API
+parameters:
+  duration: 5
+  resolution: "720p"
+  bitrate_mode: "high"
+  generate_audio: true
+prompt_prefix: ""
+prompt_suffix: ""
+image_url_param: video_url
+duration_param_name: duration

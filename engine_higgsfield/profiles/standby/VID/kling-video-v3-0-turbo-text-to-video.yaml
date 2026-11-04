@@ -1,0 +1,11 @@
+platform: higgsfield
+media_type: video
+endpoint: higgsfield/kling-video-v3-0-turbo-text-to-video
+description: Kling 3.0 — Turbo · Text to video API
+parameters:
+  duration: 5
+  resolution: "720p"
+  aspect_ratio: "16:9"
+prompt_prefix: ""
+prompt_suffix: ""
+duration_param_name: duration

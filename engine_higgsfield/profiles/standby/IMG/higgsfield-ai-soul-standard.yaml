@@ -1,0 +1,15 @@
+platform: higgsfield
+media_type: image
+endpoint: higgsfield/higgsfield-ai-soul-standard
+description: SOUL — Text to image API
+parameters:
+  aspect_ratio: "4:3"
+  enhance_prompt: false
+  style_id: "464ea177-8d40-4940-8d9d-b438bab269c7"
+  style_strength: 1.0
+  resolution: "720p"
+  custom_reference_strength: 1.0
+  batch_size: "1"
+prompt_prefix: ""
+prompt_suffix: ""
+image_url_param: image_reference_url

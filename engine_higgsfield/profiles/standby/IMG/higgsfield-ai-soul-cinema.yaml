@@ -1,0 +1,12 @@
+platform: higgsfield
+media_type: image
+endpoint: higgsfield/higgsfield-ai-soul-cinema
+description: SOUL Cinema — Text to image API
+parameters:
+  aspect_ratio: "1:1"
+  enhance_prompt: false
+  resolution: "720p"
+  custom_reference_strength: 1.0
+  batch_size: "1"
+prompt_prefix: ""
+prompt_suffix: ""

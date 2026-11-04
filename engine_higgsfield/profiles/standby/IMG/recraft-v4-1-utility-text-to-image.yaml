@@ -1,0 +1,10 @@
+platform: higgsfield
+media_type: image
+endpoint: higgsfield/recraft-v4-1-utility-text-to-image
+description: Recraft V4.1 Utility — Text to image API
+parameters:
+  resolution: "1k"
+  aspect_ratio: "1:1"
+  output_format: "jpg"
+prompt_prefix: ""
+prompt_suffix: ""

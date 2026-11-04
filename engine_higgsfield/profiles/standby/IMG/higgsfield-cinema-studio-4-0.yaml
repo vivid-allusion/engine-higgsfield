@@ -1,0 +1,21 @@
+platform: higgsfield
+media_type: image
+endpoint: higgsfield/higgsfield-cinema-studio-4-0
+description: Cinema Studio 4.0 — Generate API
+parameters:
+  era: "1960s"
+  genre: "epic"
+  light: "silhouette"
+  pacing: "chaotic"
+  duration: 5
+  resolution: "720p"
+  camera_lens: "clean-sharp"
+  aspect_ratio: "16:9"
+  camera_model: "modern"
+  color_palette: "static-noon"
+  generate_audio: true
+  camera_aperture: "f14-wide-open"
+  camera_movement: "snorricam"
+prompt_prefix: ""
+prompt_suffix: ""
+duration_param_name: duration
