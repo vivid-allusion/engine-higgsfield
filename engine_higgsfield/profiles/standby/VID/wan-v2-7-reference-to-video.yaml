@@ -9,4 +9,3 @@ parameters:
   prompt_extend: false
 prompt_prefix: ""
 prompt_suffix: ""
-duration_param_name: duration

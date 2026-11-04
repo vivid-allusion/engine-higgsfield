@@ -11,4 +11,3 @@ parameters:
   camera_movement: "dolly_in"
 prompt_prefix: ""
 prompt_suffix: ""
-duration_param_name: duration

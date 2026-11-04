@@ -12,4 +12,3 @@ prompt_suffix: ""
 image_url_param: image_url
 slots:
   - last_image_url
-duration_param_name: duration

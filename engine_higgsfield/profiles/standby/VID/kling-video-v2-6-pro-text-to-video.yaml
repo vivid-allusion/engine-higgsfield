@@ -9,4 +9,3 @@ parameters:
   aspect_ratio: "16:9"
 prompt_prefix: ""
 prompt_suffix: ""
-duration_param_name: duration

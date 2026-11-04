@@ -7,4 +7,3 @@ parameters:
   resolution: "720p"
 prompt_prefix: ""
 prompt_suffix: ""
-duration_param_name: duration

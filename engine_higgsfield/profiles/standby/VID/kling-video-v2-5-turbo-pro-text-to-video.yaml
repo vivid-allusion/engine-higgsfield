@@ -7,4 +7,3 @@ parameters:
   cfg_scale: 0.5
 prompt_prefix: ""
 prompt_suffix: ""
-duration_param_name: duration

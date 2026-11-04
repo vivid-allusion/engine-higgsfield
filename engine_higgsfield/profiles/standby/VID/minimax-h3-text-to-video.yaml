@@ -9,4 +9,3 @@ parameters:
   aigc_watermark: false
 prompt_prefix: ""
 prompt_suffix: ""
-duration_param_name: duration

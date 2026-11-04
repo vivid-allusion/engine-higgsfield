@@ -9,7 +9,7 @@ parameters:
   style_strength: 1.0
   resolution: "720p"
   custom_reference_strength: 1.0
-  batch_size: "1"
+  batch_size: 1
 prompt_prefix: ""
 prompt_suffix: ""
 image_url_param: image_reference_url

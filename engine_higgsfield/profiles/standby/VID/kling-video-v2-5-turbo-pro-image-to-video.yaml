@@ -8,4 +8,3 @@ parameters:
 prompt_prefix: ""
 prompt_suffix: ""
 image_url_param: image_url
-duration_param_name: duration

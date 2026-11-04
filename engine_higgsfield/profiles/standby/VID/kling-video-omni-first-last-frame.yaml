@@ -11,4 +11,3 @@ prompt_suffix: ""
 image_url_param: last_frame_url
 slots:
   - first_frame_url
-duration_param_name: duration

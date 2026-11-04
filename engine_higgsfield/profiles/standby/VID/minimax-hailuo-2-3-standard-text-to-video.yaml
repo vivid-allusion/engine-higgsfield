@@ -7,4 +7,3 @@ parameters:
   prompt_optimizer: true
 prompt_prefix: ""
 prompt_suffix: ""
-duration_param_name: duration

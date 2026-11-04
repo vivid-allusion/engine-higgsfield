@@ -9,6 +9,6 @@ parameters:
   custom_reference_strength: 1.0
   style_id: "3db34ab5-3439-4317-9e03-08dc30852e69"
   style_strength: 1.0
-  batch_size: "1"
+  batch_size: 1
 prompt_prefix: ""
 prompt_suffix: ""
