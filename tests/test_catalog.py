@@ -37,6 +37,10 @@ def test_every_category_matches_its_folder_and_its_kind():
         assert spec.prompt_mode in ("required", "optional", "none")
 
 
-def test_nothing_is_proven_before_a_real_call():
+def test_every_status_is_evidence_based():
     catalog = load_catalog()
-    assert {catalog.status(spec.model) for spec in catalog.specs()} == {"experimental"}
+    states = {catalog.status(spec.model) for spec in catalog.specs()}
+    assert states <= {"experimental", "beta", "proven"}
+    # Soul standard proved one call on 2026-11-04; the rest are unproven, honestly.
+    assert catalog.status("higgsfield/higgsfield-ai-soul-standard") == "beta"
+    assert states == {"experimental", "beta"}
