@@ -1,0 +1,37 @@
+id = "alibaba-happy-horse-v1-1-reference-to-video"
+label = "HappyHorse 1.1 — Reference to video API"
+category = "VID"
+platform = "higgsfield"
+endpoint = "higgsfield/alibaba-happy-horse-v1-1-reference-to-video"
+api_path = "/alibaba/happy-horse/v1.1/reference-to-video"
+description = "HappyHorse 1.1 — Reference to video API"
+
+[pricing]
+note = "unset — take the price from the provider's own page before shipping"
+
+[general]
+kind = "video"
+prompt = "required"
+duration_param_name = "duration"
+
+[params.seed]
+label = "Seed"
+type = "integer"
+min = 1
+max = 2147483646
+
+[params.duration]
+label = "Duration"
+type = "integer"
+default = 5
+min = 2
+max = 15
+
+[params.resolution]
+label = "Resolution"
+type = "select"
+default = "1080p"
+options = [
+  { value = "720p", label = "720p" },
+  { value = "1080p", label = "1080p" },
+]

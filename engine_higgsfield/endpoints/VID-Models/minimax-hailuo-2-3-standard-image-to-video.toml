@@ -1,0 +1,30 @@
+id = "minimax-hailuo-2-3-standard-image-to-video"
+label = "Hailuo 2.3 — Standard image to video API"
+category = "VID"
+platform = "higgsfield"
+endpoint = "higgsfield/minimax-hailuo-2-3-standard-image-to-video"
+api_path = "/minimax/hailuo-2.3/standard/image-to-video"
+description = "Hailuo 2.3 — Standard image to video API"
+
+[pricing]
+note = "unset — take the price from the provider's own page before shipping"
+
+[general]
+kind = "video"
+prompt = "required"
+image_url_param = "image_url"
+duration_param_name = "duration"
+
+[params.duration]
+label = "Duration"
+type = "select"
+default = "6"
+options = [
+  { value = "6", label = "6" },
+  { value = "10", label = "10" },
+]
+
+[params.prompt_optimizer]
+label = "Prompt Optimizer"
+type = "boolean"
+default = true

@@ -1,0 +1,30 @@
+[project]
+name = "engine-higgsfield"
+version = "0.1.0"
+description = "Engine wrapper for Higgsfield — images and video through one asynchronous request lifecycle. Uniform interface that studiolot Generators call instead of talking to the provider directly."
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+]
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["engine_higgsfield"]
+
+[tool.setuptools.package-data]
+engine_higgsfield = [
+    "endpoints/**/*.toml",
+    "endpoints/**/*.gitkeep",
+    "profiles/standby/**/*.yaml",
+    "status.json",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

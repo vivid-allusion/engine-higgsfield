@@ -1,0 +1,76 @@
+id = "lightricks-ltx-2-5-text-to-video-fast"
+label = "LTX-2.5 — Text to video fast API"
+category = "VID"
+platform = "higgsfield"
+endpoint = "higgsfield/lightricks-ltx-2-5-text-to-video-fast"
+api_path = "/lightricks/ltx-2.5/text-to-video/fast"
+description = "LTX-2.5 — Text to video fast API"
+
+[pricing]
+note = "unset — take the price from the provider's own page before shipping"
+
+[general]
+kind = "video"
+prompt = "required"
+duration_param_name = "duration"
+
+[params.fps]
+label = "Fps"
+type = "select"
+default = "25"
+options = [
+  { value = "24", label = "24" },
+  { value = "25", label = "25" },
+  { value = "48", label = "48" },
+  { value = "50", label = "50" },
+]
+
+[params.duration]
+label = "Duration"
+type = "select"
+default = "6"
+options = [
+  { value = "6", label = "6" },
+  { value = "8", label = "8" },
+  { value = "10", label = "10" },
+]
+
+[params.resolution]
+label = "Resolution"
+type = "select"
+default = "720p"
+options = [
+  { value = "720p", label = "720p" },
+  { value = "1080p", label = "1080p" },
+  { value = "2k", label = "2k" },
+  { value = "4k", label = "4k" },
+]
+
+[params.aspect_ratio]
+label = "Aspect Ratio"
+type = "select"
+default = "16:9"
+options = [
+  { value = "16:9", label = "16:9" },
+  { value = "9:16", label = "9:16" },
+]
+
+[params.generate_audio]
+label = "Generate Audio"
+type = "boolean"
+default = true
+
+[params.camera_movement]
+label = "Camera Movement"
+type = "select"
+default = "dolly_in"
+options = [
+  { value = "dolly_in", label = "dolly_in" },
+  { value = "dolly_out", label = "dolly_out" },
+  { value = "dolly_left", label = "dolly_left" },
+  { value = "dolly_right", label = "dolly_right" },
+  { value = "jib_up", label = "jib_up" },
+  { value = "jib_down", label = "jib_down" },
+  { value = "static", label = "static" },
+  { value = "focus_shift", label = "focus_shift" },
+]

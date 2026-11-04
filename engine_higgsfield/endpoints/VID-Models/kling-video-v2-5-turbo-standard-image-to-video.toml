@@ -1,0 +1,36 @@
+id = "kling-video-v2-5-turbo-standard-image-to-video"
+label = "Kling 2.5 Turbo — Standard image to video API"
+category = "VID"
+platform = "higgsfield"
+endpoint = "higgsfield/kling-video-v2-5-turbo-standard-image-to-video"
+api_path = "/kling-video/v2.5-turbo/standard/image-to-video"
+description = "Kling 2.5 Turbo — Standard image to video API"
+
+[pricing]
+note = "unset — take the price from the provider's own page before shipping"
+
+[general]
+kind = "video"
+prompt = "required"
+image_url_param = "image_url"
+duration_param_name = "duration"
+
+[params.duration]
+label = "Duration"
+type = "select"
+default = "5"
+options = [
+  { value = "5", label = "5" },
+  { value = "10", label = "10" },
+]
+
+[params.cfg_scale]
+label = "Cfg Scale"
+type = "number"
+default = 0.5
+min = 0
+max = 1
+
+[params.negative_prompt]
+label = "Negative Prompt"
+type = "text"

@@ -1,0 +1,29 @@
+id = "higgsfield-genjutsu-restyle-v1-0"
+label = "Genjutsu — Restyle API"
+category = "VID"
+platform = "higgsfield"
+endpoint = "higgsfield/higgsfield-genjutsu-restyle-v1-0"
+api_path = "/higgsfield/genjutsu/restyle/v1.0"
+description = "Genjutsu — Restyle API"
+
+[pricing]
+note = "unset — take the price from the provider's own page before shipping"
+
+[general]
+kind = "video"
+prompt = "required"
+image_url_param = "video_url"
+
+[params.preset_id]
+label = "Preset Id"
+type = "text"
+
+[params.resolution]
+label = "Resolution"
+type = "select"
+default = "720p"
+options = [
+  { value = "480p", label = "480p" },
+  { value = "720p", label = "720p" },
+  { value = "1080p", label = "1080p" },
+]

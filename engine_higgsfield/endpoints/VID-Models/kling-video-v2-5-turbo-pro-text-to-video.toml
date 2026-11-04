@@ -1,0 +1,35 @@
+id = "kling-video-v2-5-turbo-pro-text-to-video"
+label = "Kling 2.5 Turbo — Pro text to video API"
+category = "VID"
+platform = "higgsfield"
+endpoint = "higgsfield/kling-video-v2-5-turbo-pro-text-to-video"
+api_path = "/kling-video/v2.5-turbo/pro/text-to-video"
+description = "Kling 2.5 Turbo — Pro text to video API"
+
+[pricing]
+note = "unset — take the price from the provider's own page before shipping"
+
+[general]
+kind = "video"
+prompt = "required"
+duration_param_name = "duration"
+
+[params.duration]
+label = "Duration"
+type = "select"
+default = "5"
+options = [
+  { value = "5", label = "5" },
+  { value = "10", label = "10" },
+]
+
+[params.cfg_scale]
+label = "Cfg Scale"
+type = "number"
+default = 0.5
+min = 0
+max = 1
+
+[params.negative_prompt]
+label = "Negative Prompt"
+type = "text"

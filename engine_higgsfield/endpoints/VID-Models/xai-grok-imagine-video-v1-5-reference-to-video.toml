@@ -1,0 +1,49 @@
+id = "xai-grok-imagine-video-v1-5-reference-to-video"
+label = "Grok Imagine Video 1.5 — Reference to video API"
+category = "VID"
+platform = "higgsfield"
+endpoint = "higgsfield/xai-grok-imagine-video-v1-5-reference-to-video"
+api_path = "/xai/grok-imagine-video/v1.5/reference-to-video"
+description = "Grok Imagine Video 1.5 — Reference to video API"
+
+[pricing]
+note = "unset — take the price from the provider's own page before shipping"
+
+[general]
+kind = "video"
+prompt = "required"
+image_url_param = "audio_url"
+slots = ["image_url"]
+duration_param_name = "duration"
+
+[params.duration]
+label = "Duration"
+type = "integer"
+default = 5
+min = 1
+max = 15
+
+[params.resolution]
+label = "Resolution"
+type = "select"
+default = "480p"
+options = [
+  { value = "480p", label = "480p" },
+  { value = "720p", label = "720p" },
+  { value = "1080p", label = "1080p" },
+]
+
+[params.aspect_ratio]
+label = "Aspect Ratio"
+type = "select"
+default = "auto"
+options = [
+  { value = "auto", label = "auto" },
+  { value = "1:1", label = "1:1" },
+  { value = "16:9", label = "16:9" },
+  { value = "9:16", label = "9:16" },
+  { value = "4:3", label = "4:3" },
+  { value = "3:4", label = "3:4" },
+  { value = "3:2", label = "3:2" },
+  { value = "2:3", label = "2:3" },
+]

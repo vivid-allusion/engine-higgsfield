@@ -1,0 +1,53 @@
+id = "recraft-v4-1-utility-text-to-image"
+label = "Recraft V4.1 Utility — Text to image API"
+category = "IMG"
+platform = "higgsfield"
+endpoint = "higgsfield/recraft-v4-1-utility-text-to-image"
+api_path = "/recraft/v4.1/utility/text-to-image"
+description = "Recraft V4.1 Utility — Text to image API"
+
+[pricing]
+note = "unset — take the price from the provider's own page before shipping"
+
+[general]
+kind = "image"
+prompt = "required"
+
+[params.resolution]
+label = "Resolution"
+type = "select"
+default = "1k"
+options = [
+  { value = "1k", label = "1k" },
+]
+
+[params.aspect_ratio]
+label = "Aspect Ratio"
+type = "select"
+default = "1:1"
+options = [
+  { value = "1:1", label = "1:1" },
+  { value = "2:1", label = "2:1" },
+  { value = "1:2", label = "1:2" },
+  { value = "3:2", label = "3:2" },
+  { value = "2:3", label = "2:3" },
+  { value = "4:3", label = "4:3" },
+  { value = "3:4", label = "3:4" },
+  { value = "5:4", label = "5:4" },
+  { value = "4:5", label = "4:5" },
+  { value = "6:10", label = "6:10" },
+  { value = "14:10", label = "14:10" },
+  { value = "10:14", label = "10:14" },
+  { value = "16:9", label = "16:9" },
+  { value = "9:16", label = "9:16" },
+]
+
+[params.output_format]
+label = "Output Format"
+type = "select"
+default = "jpg"
+options = [
+  { value = "jpg", label = "jpg" },
+  { value = "png", label = "png" },
+  { value = "webp", label = "webp" },
+]

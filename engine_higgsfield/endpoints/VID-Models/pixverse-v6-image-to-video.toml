@@ -1,0 +1,50 @@
+id = "pixverse-v6-image-to-video"
+label = "PixVerse V6 — Image to video API"
+category = "VID"
+platform = "higgsfield"
+endpoint = "higgsfield/pixverse-v6-image-to-video"
+api_path = "/pixverse/v6/image-to-video"
+description = "PixVerse V6 — Image to video API"
+
+[pricing]
+note = "unset — take the price from the provider's own page before shipping"
+
+[general]
+kind = "video"
+prompt = "required"
+image_url_param = "image_url"
+slots = ["end_image_url"]
+duration_param_name = "duration"
+
+[params.seed]
+label = "Seed"
+type = "integer"
+min = 0
+max = 2147483647
+
+[params.duration]
+label = "Duration"
+type = "number"
+default = 5.0
+min = 1
+max = 15
+
+[params.resolution]
+label = "Resolution"
+type = "select"
+default = "720p"
+options = [
+  { value = "360p", label = "360p" },
+  { value = "540p", label = "540p" },
+  { value = "720p", label = "720p" },
+  { value = "1080p", label = "1080p" },
+]
+
+[params.generate_audio]
+label = "Generate Audio"
+type = "boolean"
+default = true
+
+[params.negative_prompt]
+label = "Negative Prompt"
+type = "text"

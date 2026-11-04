@@ -1,0 +1,48 @@
+id = "bytedance-seedance-2-5-image-to-video"
+label = "Seedance 2.5 — Image to video API"
+category = "VID"
+platform = "higgsfield"
+endpoint = "higgsfield/bytedance-seedance-2-5-image-to-video"
+api_path = "/bytedance/seedance-2.5/image-to-video"
+description = "Seedance 2.5 — Image to video API"
+
+[pricing]
+note = "unset — take the price from the provider's own page before shipping"
+
+[general]
+kind = "video"
+prompt = "required"
+image_url_param = "image_url"
+slots = ["end_image_url"]
+duration_param_name = "duration"
+
+[params.duration]
+label = "Duration"
+type = "integer"
+default = 5
+min = 4
+max = 30
+
+[params.resolution]
+label = "Resolution"
+type = "select"
+default = "720p"
+options = [
+  { value = "480p", label = "480p" },
+  { value = "720p", label = "720p" },
+  { value = "1080p", label = "1080p" },
+]
+
+[params.bitrate_mode]
+label = "Bitrate Mode"
+type = "select"
+default = "high"
+options = [
+  { value = "standard", label = "standard" },
+  { value = "high", label = "high" },
+]
+
+[params.generate_audio]
+label = "Generate Audio"
+type = "boolean"
+default = true

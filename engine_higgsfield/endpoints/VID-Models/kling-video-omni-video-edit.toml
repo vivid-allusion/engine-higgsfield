@@ -1,0 +1,23 @@
+id = "kling-video-omni-video-edit"
+label = "Kling Omni — Video edit API"
+category = "VID"
+platform = "higgsfield"
+endpoint = "higgsfield/kling-video-omni-video-edit"
+api_path = "/kling-video/omni/video-edit"
+description = "Kling Omni — Video edit API"
+
+[pricing]
+note = "unset — take the price from the provider's own page before shipping"
+
+[general]
+kind = "video"
+prompt = "required"
+
+[params.mode]
+label = "Mode"
+type = "select"
+default = "pro"
+options = [
+  { value = "std", label = "std" },
+  { value = "pro", label = "pro" },
+]

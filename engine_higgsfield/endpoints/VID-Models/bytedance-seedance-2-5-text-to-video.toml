@@ -1,0 +1,68 @@
+id = "bytedance-seedance-2-5-text-to-video"
+label = "Seedance 2.5 — Text to video API"
+category = "VID"
+platform = "higgsfield"
+endpoint = "higgsfield/bytedance-seedance-2-5-text-to-video"
+api_path = "/bytedance/seedance-2.5/text-to-video"
+description = "Seedance 2.5 — Text to video API"
+
+[pricing]
+note = "unset — take the price from the provider's own page before shipping"
+
+[general]
+kind = "video"
+prompt = "required"
+duration_param_name = "duration"
+
+[params.duration]
+label = "Duration"
+type = "integer"
+default = 5
+min = 4
+max = 30
+
+[params.resolution]
+label = "Resolution"
+type = "select"
+default = "720p"
+options = [
+  { value = "480p", label = "480p" },
+  { value = "720p", label = "720p" },
+  { value = "1080p", label = "1080p" },
+]
+
+[params.aspect_ratio]
+label = "Aspect Ratio"
+type = "select"
+default = "16:9"
+options = [
+  { value = "16:9", label = "16:9" },
+  { value = "4:3", label = "4:3" },
+  { value = "1:1", label = "1:1" },
+  { value = "3:4", label = "3:4" },
+  { value = "9:16", label = "9:16" },
+  { value = "21:9", label = "21:9" },
+]
+
+[params.bitrate_mode]
+label = "Bitrate Mode"
+type = "select"
+default = "high"
+options = [
+  { value = "standard", label = "standard" },
+  { value = "high", label = "high" },
+]
+
+[params.output_format]
+label = "Output Format"
+type = "select"
+default = "mp4"
+options = [
+  { value = "mp4", label = "mp4" },
+  { value = "mov", label = "mov" },
+]
+
+[params.generate_audio]
+label = "Generate Audio"
+type = "boolean"
+default = true

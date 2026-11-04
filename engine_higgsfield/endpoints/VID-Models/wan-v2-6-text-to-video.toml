@@ -1,0 +1,50 @@
+id = "wan-v2-6-text-to-video"
+label = "Wan 2.6 — Text to video API"
+category = "VID"
+platform = "higgsfield"
+endpoint = "higgsfield/wan-v2-6-text-to-video"
+api_path = "/wan/v2.6/text-to-video"
+description = "Wan 2.6 — Text to video API"
+
+[pricing]
+note = "unset — take the price from the provider's own page before shipping"
+
+[general]
+kind = "video"
+prompt = "required"
+image_url_param = "audio_url"
+duration_param_name = "duration"
+
+[params.seed]
+label = "Seed"
+type = "integer"
+max = 10000000
+
+[params.duration]
+label = "Duration"
+type = "select"
+default = "5"
+options = [
+  { value = "5", label = "5" },
+  { value = "10", label = "10" },
+  { value = "15", label = "15" },
+]
+
+[params.resolution]
+label = "Resolution"
+type = "select"
+default = "720p"
+options = [
+  { value = "720p", label = "720p" },
+  { value = "1080p", label = "1080p" },
+]
+
+[params.multi_shots]
+label = "Multi Shots"
+type = "boolean"
+default = false
+
+[params.prompt_extend]
+label = "Prompt Extend"
+type = "boolean"
+default = false

@@ -1,0 +1,5 @@
+{
+ "endpoints": {},
+ "generated_at": "1970-01-01T00:00:00Z",
+ "note": "Written by engine-mgmt/tools/engine_status.py from evidence/. Empty means every endpoint is experimental, which is the honest state of a catalogue nobody has called yet."
+}

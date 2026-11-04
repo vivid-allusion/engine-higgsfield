@@ -1,0 +1,228 @@
+id = "higgsfield-cinema-studio-4-0"
+label = "Cinema Studio 4.0 — Generate API"
+category = "IMG"
+platform = "higgsfield"
+endpoint = "higgsfield/higgsfield-cinema-studio-4-0"
+api_path = "/higgsfield/cinema-studio/4.0"
+description = "Cinema Studio 4.0 — Generate API"
+
+[pricing]
+note = "unset — take the price from the provider's own page before shipping"
+
+[general]
+kind = "image"
+prompt = "required"
+duration_param_name = "duration"
+
+[params.era]
+label = "Era"
+type = "select"
+default = "1960s"
+options = [
+  { value = "1960s", label = "1960s" },
+  { value = "1980s", label = "1980s" },
+  { value = "1990s", label = "1990s" },
+  { value = "2000s", label = "2000s" },
+  { value = "2020s", label = "2020s" },
+]
+
+[params.genre]
+label = "Genre"
+type = "select"
+default = "epic"
+options = [
+  { value = "epic", label = "epic" },
+  { value = "drama", label = "drama" },
+  { value = "noir", label = "noir" },
+  { value = "comedy", label = "comedy" },
+  { value = "horror", label = "horror" },
+  { value = "action", label = "action" },
+]
+
+[params.light]
+label = "Light"
+type = "select"
+default = "silhouette"
+options = [
+  { value = "silhouette", label = "silhouette" },
+  { value = "practicals", label = "practicals" },
+  { value = "window", label = "window" },
+  { value = "overhead-fall", label = "overhead-fall" },
+  { value = "contre-jour", label = "contre-jour" },
+  { value = "soft-cross", label = "soft-cross" },
+]
+
+[params.pacing]
+label = "Pacing"
+type = "select"
+default = "chaotic"
+options = [
+  { value = "chaotic", label = "chaotic" },
+  { value = "dynamic", label = "dynamic" },
+  { value = "calm", label = "calm" },
+  { value = "single-shot", label = "single-shot" },
+]
+
+[params.duration]
+label = "Duration"
+type = "integer"
+default = 5
+min = 4
+max = 30
+
+[params.resolution]
+label = "Resolution"
+type = "select"
+default = "720p"
+options = [
+  { value = "480p", label = "480p" },
+  { value = "720p", label = "720p" },
+]
+
+[params.camera_lens]
+label = "Camera Lens"
+type = "select"
+default = "clean-sharp"
+options = [
+  { value = "clean-sharp", label = "clean-sharp" },
+  { value = "anamorphic", label = "anamorphic" },
+  { value = "vintage-anamorphic", label = "vintage-anamorphic" },
+  { value = "warm-vintage", label = "warm-vintage" },
+  { value = "halation-vintage", label = "halation-vintage" },
+]
+
+[params.aspect_ratio]
+label = "Aspect Ratio"
+type = "select"
+default = "16:9"
+options = [
+  { value = "16:9", label = "16:9" },
+  { value = "4:3", label = "4:3" },
+  { value = "1:1", label = "1:1" },
+  { value = "3:4", label = "3:4" },
+  { value = "9:16", label = "9:16" },
+  { value = "21:9", label = "21:9" },
+]
+
+[params.camera_model]
+label = "Camera Model"
+type = "select"
+default = "modern"
+options = [
+  { value = "modern", label = "modern" },
+  { value = "35mm-film", label = "35mm-film" },
+  { value = "8mm-film", label = "8mm-film" },
+  { value = "dv-camcorder", label = "dv-camcorder" },
+]
+
+[params.color_palette]
+label = "Color Palette"
+type = "select"
+default = "static-noon"
+options = [
+  { value = "static-noon", label = "static-noon" },
+  { value = "twilight-fable", label = "twilight-fable" },
+  { value = "back-row-kissing-seats", label = "back-row-kissing-seats" },
+  { value = "on-the-other-side-of-the-porthole", label = "on-the-other-side-of-the-porthole" },
+  { value = "the-emerald-ambush", label = "the-emerald-ambush" },
+  { value = "highway-standoff", label = "highway-standoff" },
+  { value = "the-faded-fresco", label = "the-faded-fresco" },
+  { value = "oil-ochre", label = "oil-ochre" },
+  { value = "the-mountain-convent", label = "the-mountain-convent" },
+  { value = "ghost-in-the-code", label = "ghost-in-the-code" },
+  { value = "pink-velvet", label = "pink-velvet" },
+  { value = "two-days-to-the-horizon", label = "two-days-to-the-horizon" },
+  { value = "industrial-fog", label = "industrial-fog" },
+  { value = "stairs-go-up", label = "stairs-go-up" },
+  { value = "field-post", label = "field-post" },
+  { value = "home-is-the-next-gas-station", label = "home-is-the-next-gas-station" },
+  { value = "glossy-flesh", label = "glossy-flesh" },
+  { value = "the-crimson-ballet", label = "the-crimson-ballet" },
+  { value = "neon-rain-at-midnight", label = "neon-rain-at-midnight" },
+  { value = "the-morning-after-rain", label = "the-morning-after-rain" },
+  { value = "the-iron-borough", label = "the-iron-borough" },
+  { value = "the-ground", label = "the-ground" },
+  { value = "the-investigation", label = "the-investigation" },
+  { value = "turquoise-mirage", label = "turquoise-mirage" },
+  { value = "a-dream-in-color", label = "a-dream-in-color" },
+  { value = "breakfast-on-schedule", label = "breakfast-on-schedule" },
+  { value = "favela-gold", label = "favela-gold" },
+  { value = "a-hotel-for-one", label = "a-hotel-for-one" },
+  { value = "after-dark", label = "after-dark" },
+  { value = "crimson-vigi", label = "crimson-vigi" },
+  { value = "the-neighbors-saw-everything", label = "the-neighbors-saw-everything" },
+  { value = "the-grey-channel", label = "the-grey-channel" },
+  { value = "mirage-at-noon", label = "mirage-at-noon" },
+  { value = "bubblegum-boulevard", label = "bubblegum-boulevard" },
+  { value = "yellow-room", label = "yellow-room" },
+  { value = "the-earth-keeps-things-reluctantly", label = "the-earth-keeps-things-reluctantly" },
+  { value = "tropic-fever-dream", label = "tropic-fever-dream" },
+  { value = "bioluminescent-night", label = "bioluminescent-night" },
+  { value = "dont-turn-it-off-im-watching", label = "dont-turn-it-off-im-watching" },
+  { value = "the-silk-curtain-falls", label = "the-silk-curtain-falls" },
+  { value = "the-butterfly", label = "the-butterfly" },
+  { value = "playtime", label = "playtime" },
+  { value = "wallpaper-romance", label = "wallpaper-romance" },
+  { value = "overtime", label = "overtime" },
+  { value = "the-way-home-is-longer", label = "the-way-home-is-longer" },
+  { value = "everyone-speaks-in-whispers", label = "everyone-speaks-in-whispers" },
+  { value = "runaway-summer", label = "runaway-summer" },
+  { value = "amber-wasteland", label = "amber-wasteland" },
+  { value = "the-circus", label = "the-circus" },
+  { value = "gasoline-sunset", label = "gasoline-sunset" },
+]
+
+[params.generate_audio]
+label = "Generate Audio"
+type = "boolean"
+default = true
+
+[params.camera_aperture]
+label = "Camera Aperture"
+type = "select"
+default = "f14-wide-open"
+options = [
+  { value = "f14-wide-open", label = "f14-wide-open" },
+  { value = "f4-moderate", label = "f4-moderate" },
+  { value = "f11-deep-focus", label = "f11-deep-focus" },
+]
+
+[params.camera_movement]
+label = "Camera Movement"
+type = "select"
+default = "snorricam"
+options = [
+  { value = "snorricam", label = "snorricam" },
+  { value = "robot-arm", label = "robot-arm" },
+  { value = "tilt-up", label = "tilt-up" },
+  { value = "rack-focus", label = "rack-focus" },
+  { value = "tilt-down", label = "tilt-down" },
+  { value = "pov", label = "pov" },
+  { value = "pan-left", label = "pan-left" },
+  { value = "crane-up", label = "crane-up" },
+  { value = "pan-right", label = "pan-right" },
+  { value = "crane-down", label = "crane-down" },
+  { value = "side-tracking", label = "side-tracking" },
+  { value = "pedestal-up", label = "pedestal-up" },
+  { value = "pedestal-down", label = "pedestal-down" },
+  { value = "handheld", label = "handheld" },
+  { value = "tracking", label = "tracking" },
+  { value = "drone-orbit", label = "drone-orbit" },
+  { value = "dolly-zoom", label = "dolly-zoom" },
+  { value = "aerial-pullback", label = "aerial-pullback" },
+  { value = "static-shot", label = "static-shot" },
+  { value = "bullet-time", label = "bullet-time" },
+  { value = "whip-pan", label = "whip-pan" },
+  { value = "slow-zoom-in", label = "slow-zoom-in" },
+  { value = "arc-left", label = "arc-left" },
+  { value = "slow-zoom-out", label = "slow-zoom-out" },
+  { value = "arc-right", label = "arc-right" },
+  { value = "truck-right", label = "truck-right" },
+  { value = "dolly-in", label = "dolly-in" },
+  { value = "truck-left", label = "truck-left" },
+  { value = "dolly-out", label = "dolly-out" },
+  { value = "slider-right", label = "slider-right" },
+  { value = "crush-zoom", label = "crush-zoom" },
+  { value = "slider-left", label = "slider-left" },
+  { value = "helicopter-shot", label = "helicopter-shot" },
+]

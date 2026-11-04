@@ -1,0 +1,24 @@
+id = "kling-video-o3-video-edit"
+label = "Kling O3 — Video edit API"
+category = "VID"
+platform = "higgsfield"
+endpoint = "higgsfield/kling-video-o3-video-edit"
+api_path = "/kling-video/o3/video-edit"
+description = "Kling O3 — Video edit API"
+
+[pricing]
+note = "unset — take the price from the provider's own page before shipping"
+
+[general]
+kind = "video"
+prompt = "required"
+
+[params.mode]
+label = "Mode"
+type = "select"
+default = "pro"
+options = [
+  { value = "std", label = "std" },
+  { value = "pro", label = "pro" },
+  { value = "4k", label = "4k" },
+]

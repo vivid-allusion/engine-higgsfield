@@ -1,0 +1,68 @@
+id = "marketing-studio-image"
+label = "Marketing Studio Image — 2.0 Alpha API"
+category = "IMG"
+platform = "higgsfield"
+endpoint = "higgsfield/marketing-studio-image"
+api_path = "/marketing-studio/image"
+description = "Marketing Studio Image — 2.0 Alpha API"
+
+[pricing]
+note = "unset — take the price from the provider's own page before shipping"
+
+[general]
+kind = "image"
+prompt = "required"
+
+[params.quality]
+label = "Quality"
+type = "select"
+default = "high"
+options = [
+  { value = "low", label = "low" },
+  { value = "medium", label = "medium" },
+  { value = "high", label = "high" },
+]
+
+[params.preset_id]
+label = "Preset Id"
+type = "text"
+
+[params.moderation]
+label = "Moderation"
+type = "select"
+default = "auto"
+options = [
+  { value = "auto", label = "auto" },
+  { value = "low", label = "low" },
+]
+
+[params.resolution]
+label = "Resolution"
+type = "select"
+default = "2k"
+options = [
+  { value = "1k", label = "1k" },
+  { value = "2k", label = "2k" },
+  { value = "4k", label = "4k" },
+]
+
+[params.aspect_ratio]
+label = "Aspect Ratio"
+type = "select"
+default = "auto"
+options = [
+  { value = "auto", label = "auto" },
+  { value = "1:1", label = "1:1" },
+  { value = "3:2", label = "3:2" },
+  { value = "2:3", label = "2:3" },
+  { value = "4:3", label = "4:3" },
+  { value = "3:4", label = "3:4" },
+  { value = "16:9", label = "16:9" },
+  { value = "9:16", label = "9:16" },
+  { value = "21:9", label = "21:9" },
+]
+
+[params.enhance_prompt]
+label = "Enhance Prompt"
+type = "boolean"
+default = false

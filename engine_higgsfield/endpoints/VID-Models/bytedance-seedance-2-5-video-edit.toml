@@ -1,0 +1,39 @@
+id = "bytedance-seedance-2-5-video-edit"
+label = "Seedance 2.5 — Video edit API"
+category = "VID"
+platform = "higgsfield"
+endpoint = "higgsfield/bytedance-seedance-2-5-video-edit"
+api_path = "/bytedance/seedance-2.5/video-edit"
+description = "Seedance 2.5 — Video edit API"
+
+[pricing]
+note = "unset — take the price from the provider's own page before shipping"
+
+[general]
+kind = "video"
+prompt = "required"
+image_url_param = "video_url"
+
+[params.resolution]
+label = "Resolution"
+type = "select"
+default = "720p"
+options = [
+  { value = "480p", label = "480p" },
+  { value = "720p", label = "720p" },
+  { value = "1080p", label = "1080p" },
+]
+
+[params.bitrate_mode]
+label = "Bitrate Mode"
+type = "select"
+default = "high"
+options = [
+  { value = "standard", label = "standard" },
+  { value = "high", label = "high" },
+]
+
+[params.generate_audio]
+label = "Generate Audio"
+type = "boolean"
+default = true

@@ -1,0 +1,25 @@
+id = "higgsfield-genjutsu-motion-transfer-v1-0"
+label = "Genjutsu — Motion transfer API"
+category = "VID"
+platform = "higgsfield"
+endpoint = "higgsfield/higgsfield-genjutsu-motion-transfer-v1-0"
+api_path = "/higgsfield/genjutsu/motion-transfer/v1.0"
+description = "Genjutsu — Motion transfer API"
+
+[pricing]
+note = "unset — take the price from the provider's own page before shipping"
+
+[general]
+kind = "video"
+prompt = "required"
+image_url_param = "video_url"
+
+[params.resolution]
+label = "Resolution"
+type = "select"
+default = "720p"
+options = [
+  { value = "720p", label = "720p" },
+  { value = "480p", label = "480p" },
+  { value = "1080p", label = "1080p" },
+]

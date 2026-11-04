@@ -1,0 +1,48 @@
+id = "wan-v2-7-image-to-video"
+label = "Wan 2.7 — Image to video API"
+category = "VID"
+platform = "higgsfield"
+endpoint = "higgsfield/wan-v2-7-image-to-video"
+api_path = "/wan/v2.7/image-to-video"
+description = "Wan 2.7 — Image to video API"
+
+[pricing]
+note = "unset — take the price from the provider's own page before shipping"
+
+[general]
+kind = "video"
+prompt = "required"
+image_url_param = "audio_url"
+slots = ["image_url", "end_image_url"]
+duration_param_name = "duration"
+
+[params.seed]
+label = "Seed"
+type = "integer"
+min = 1
+max = 2147483646
+
+[params.duration]
+label = "Duration"
+type = "integer"
+default = 5
+min = 2
+max = 15
+
+[params.resolution]
+label = "Resolution"
+type = "select"
+default = "720p"
+options = [
+  { value = "720p", label = "720p" },
+  { value = "1080p", label = "1080p" },
+]
+
+[params.prompt_extend]
+label = "Prompt Extend"
+type = "boolean"
+default = false
+
+[params.negative_prompt]
+label = "Negative Prompt"
+type = "text"

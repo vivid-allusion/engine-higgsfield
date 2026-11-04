@@ -1,0 +1,41 @@
+id = "kling-video-v3-0-turbo-text-to-video"
+label = "Kling 3.0 — Turbo · Text to video API"
+category = "VID"
+platform = "higgsfield"
+endpoint = "higgsfield/kling-video-v3-0-turbo-text-to-video"
+api_path = "/kling-video/v3.0-turbo/text-to-video"
+description = "Kling 3.0 — Turbo · Text to video API"
+
+[pricing]
+note = "unset — take the price from the provider's own page before shipping"
+
+[general]
+kind = "video"
+prompt = "required"
+duration_param_name = "duration"
+
+[params.duration]
+label = "Duration"
+type = "integer"
+default = 5
+min = 3
+max = 15
+
+[params.resolution]
+label = "Resolution"
+type = "select"
+default = "720p"
+options = [
+  { value = "720p", label = "720p" },
+  { value = "1080p", label = "1080p" },
+]
+
+[params.aspect_ratio]
+label = "Aspect Ratio"
+type = "select"
+default = "16:9"
+options = [
+  { value = "16:9", label = "16:9" },
+  { value = "9:16", label = "9:16" },
+  { value = "1:1", label = "1:1" },
+]
